@@ -1,0 +1,12 @@
+1.	Refund is not working -- haji aa baki che 
+4.	Resources/lesson plans do not delete 
+5.	Withdraw api needs implementing front/back and admin
+6.	Homepage central part needs adding and translated 
+7.	Is Payment structure is accurate web and mobile --- 
+8.	Blur seems not accurate in resources - shows less than half of text 
+
+
+
+13-12-21 New HP CONTENT.zip
+
+

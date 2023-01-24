@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv='cache-control' content='no-cache'>
+    <meta http-equiv='expires' content='0'>
+    <meta http-equiv='pragma' content='no-cache'>
+
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/favicon.png" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/toastify-js/1.11.1/toastify.js"
+      integrity="sha512-55m+nq7bzqdQz2vF9AXOYTZtmoikiXcW1XnHNStnk464ewHBwhEeC5z6aqukJ/7n7Y+veO3gPunMydgaX4J8nQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/toastify-js/1.11.1/toastify.css"
+      integrity="sha512-GjCBrfMVk9d2TgevQqgGt2FOJHBBVsTwuBdWfbxPsrcVI8zD5vfn/aR5XnaQZMh6tQ3oLHQc3X6pu1XJhs2Szg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+<!-- kindeditorjs -->
+  <script charset="utf-8" src="%PUBLIC_URL%/kindeditor/kindeditor-all-min.js"></script>
+  <script charset="utf-8" src="%PUBLIC_URL%/kindeditor/kindeditor-all.js"></script>
+  <link rel="stylesheet" href="%PUBLIC_URL%/kindeditor/themes/default/default.css" />
+  <link rel="stylesheet" href="%PUBLIC_URL%/kindeditor/plugins/code/prettify.css" />
+  <!-- <script charset="utf-8" src="%PUBLIC_URL%/kindeditor/kindeditor.js"></script> -->
+  <script charset="utf-8" src="%PUBLIC_URL%/kindeditor/lang/zh-CN.js"></script>
+  <script charset="utf-8" src="%PUBLIC_URL%/kindeditor/plugins/code/prettify.js"></script>
+
+<!-- kindeditorjs -->
+    <title>IREVU</title>
+    <style>
+      .d-none {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root">
+      <div class="d-none">
+        <audio src="notification.mp3" controls id="notification"></audio>
+      </div>
+    </div>
+    <!-- <textarea name="content1"></textarea> -->
+    <script
+      src="https://cdn.socket.io/4.0.0/socket.io.min.js"
+      integrity="sha384-DkkWv9oJFWLIydBXXjkBWnG1/fuVhw8YPBq37uvvD6WSYRFRqr21eY5Dg9ZhmWdy"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      var socket = io("https://irevu.asia");
+      let notification = document.getElementById("notification");
+	  
+      socket.on("recevie_notification", (data) => {
+        console.log("data to display ",data);
+		  let authSocketUser = JSON.parse(localStorage.getItem("user"));
+      console.log("student if check ==> ", (authSocketUser?.user_type === "2" && data.for == "student"))
+      console.log("Teacher if check ==> ", (authSocketUser?.user_type === "1" && data.for == "teacher"))
+      console.log("Data for if check for all==> ",data.for, (data.for == "all"))
+      console.log("user_type student", data.type && data.type=="student")
+
+        if (
+          (authSocketUser?.user_type === "2" && data.for == "student") ||
+          (authSocketUser?.user_type === "1" && data.for == "teacher") || (data.for == "all")
+        ) {
+          console.log("first if check")
+          
+          if (authSocketUser.id == data.id || authSocketUser.username == data.id) {
+            console.log("second if check")
+              Toastify({
+                text: data.receiverMsg,
+                duration: 3000,
+              }).showToast();
+              notification.play();
+          } else if(data.type && data.type=="all"){
+            console.log("third if check data type===> all")
+
+            Toastify({
+                text: data.receiverMsg,
+                duration: 3000,
+              }).showToast();
+            notification.play();
+            setTimeout(() => {
+              console.log("Delayed for 3 second.");
+              window.location.reload();
+            }, "1000")
+           } else if(data.type && data.type=="student"){
+            console.log("third if check data type===> student")
+
+            Toastify({
+                text: data.receiverMsg,
+                duration: 3000,
+              }).showToast();
+            notification.play();
+            setTimeout(() => {
+              console.log("Delayed for 3 second.");
+              window.location.reload();
+            }, "1000")
+           } else if(data.type && data.type=="teacher"){
+            console.log("third if check data type===> teacher")
+
+            Toastify({
+                text: data.receiverMsg,
+                duration: 3000,
+              }).showToast();
+            notification.play();
+            setTimeout(() => {
+              console.log("Delayed for 3 second.");
+              window.location.reload();
+            }, "1000")
+           } else if(data.ids && data.ids.indexOf(authSocketUser.id) > -1){
+            console.log("fourth if else check ids ==>>>")
+
+            Toastify({
+                text: data.receiverMsg,
+                duration: 3000,
+            }).showToast();
+            notification.play();
+          }
+          // console.log("recevier by ===>>> ", data);
+          // if (authSocketUser.id == data.id) {
+          //   if (data.message) {
+          //     Toastify({
+          //       text: data.message,
+          //       duration: 3000,
+          //     }).showToast();
+          //     setTimeout(() => {
+          //       window.location.reload();
+          //     }, 5000);
+          //   }
+          // } else {
+          //   Toastify({
+          //     text: data.receiverMsg,
+          //     duration: 3000,
+          //   }).showToast();
+          //   notification.play();
+          // }
+        }
+        else if (data.for == 'any') {
+          console.log("fifth any if check===>")
+
+          if(authSocketUser.referral_code == data.id){
+            Toastify({
+                text: data.receiverMsg,
+                duration: 3000,
+            }).showToast();
+            notification.play();
+          }
+          // window.location.reload();
+
+        }
+      });
+      var editor,editor2;
+      kdmeditor()
+      kdmeditor2()
+
+      function kdmeditor(element=""){
+        if(element==""){
+          element="content12"
+        }
+        KindEditor.ready(function(K) {
+          editor = K.create('textarea[name="content12"]', {
+            // cssPath : 'http://irevu.org/kindeditor/plugins/code/prettify.css',
+            // uploadJson : 'http://irevu.org/kindeditorphp/upload_json.php',
+            // fileManagerJson : 'http://irevu.org/kindeditorphp/file_manager_json.php',
+            // allowFileManager : true,
+            // allowImageUpload: true,
+            height:400,
+            cssData: 'body {font-size: 14px}',
+            // autoHeightMode : true,
+            // autoWidthMode : true,
+            afterChange: function() {
+              // console.log('full text===>',this.text())
+              var wordcount=this.text().replace("\n\n\n\t", " ").split(' ')
+              // var jointext=wordcount.join('\hhdhdhdhhd',' ')
+              // console.
+              wordcount=wordcount && wordcount[0]!="" ? wordcount : []
+              // console.log('count==>',wordcount)
+              K('.word_count2').html(wordcount.length);
+              // K('.word_count2').html(this.count('text'));
+              this.sync();
+            }
+          });
+          prettyPrint();
+        });
+        return editor
+      }
+
+      function kdmeditor2(){
+        KindEditor.ready(function(K) {
+          editor2 = K.create('textarea[name="content2"]', {
+            // cssPath : 'http://irevu.org/kindeditor/plugins/code/prettify.css',
+            // uploadJson : 'http://irevu.org/kindeditorphp/upload_json.php',
+            // fileManagerJson : 'http://irevu.org/kindeditorphp/file_manager_json.php',
+            // allowFileManager : true,
+            // allowImageUpload: true,
+            height:400,
+            cssData: 'body {font-size: 14px}',
+            // autoHeightMode : true,
+            // autoWidthMode : true,
+            afterChange: function() {
+              var wordcount=this.text().replace("\n\n\n\t", " ").split(' ')
+              wordcount=wordcount && wordcount[0]!="" ? wordcount : []
+              K('.word_count1').html(wordcount.length);
+              // K('.word_count1').html(this.count('text'));
+              this.sync();
+            }
+          });
+          prettyPrint();
+        });
+        return editor2
+      }
+
+    </script>
+  </body>
+</html>

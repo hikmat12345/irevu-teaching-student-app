@@ -1,0 +1,137 @@
+html {
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  border-radius: 10px;
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  width: 5px;
+  height: 5px;
+  border-radius: 10px;
+  background-color: #5281ef;
+}
+.my-blue {
+  background-color: #2b65ec;
+}
+.text-my-blue {
+  color: #2b65ec;
+}
+:root {
+  --my-blue: #2b65ec;
+}
+/* :root {
+  --my-orange: #ffa45c;  rgba(244, 164, 92, .5); 
+  --my-dark-orange: #f7873e;
+  --my-white: #fff;
+  --border-gray: #eee;
+  --dropdown-gray: #f5f5f5;
+  --my-gray: #fcfcfc;
+  --my-black: #1e1e1e;  rgba(30,30,30,.4); 
+  --my-dark-gray: #291c1c;
+  --my-cream-color: #fff4e3;
+  --text-my-black: #1e1e1e;
+  --text-my-orange: #ffa45c;
+  --text-my-dark-gray: #291c1c;
+  --slider-indicators-color: #e8e8e8;
+  --scrollTrackColor: #f9f9f9;
+  --lightGrayForLogin: #eaeaea;
+  --text-radio: #707070;
+}
+.my-dark-gray {
+  background-color: var(--my-dark-gray);
+}
+.my-gray {
+  background-color: var(--my-gray);
+}
+.my-black {
+  background-color: var(--my-black);
+}
+.my-orange {
+  background-color: var(--my-orange);
+}
+.my-dark-orange {
+  background-color: var(--my-dark-orange);
+}
+.slider-indicators-color {
+  background-color: var(--slider-indicators-color);
+}
+.text-my-orange {
+  color: var(--my-orange);
+}
+.text-my-gray {
+  color: var(--my-gray);
+}
+.text-my-black {
+  color: var(--my-black);
+}
+.text-my-cream-color {
+  color: var(--my-cream-color);
+}
+.text-my-dark-gray {
+  color: var(--text-my-dark-gray);
+}
+.text-black {
+  color: var(--my-black);
+}
+.font-sm {
+  font-size: 11px;
+}
+.b-radius-6px {
+  border-radius: 6px;
+} */
+/* font-family starts */
+@font-face {
+  font-family: PoppinsRegular;
+  src: url("../fonts/poppins/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: PoppinsBold;
+  src: url("../fonts/poppins/Poppins-Bold.ttf");
+}
+@font-face {
+  font-family: PoppinsSemiBold;
+  src: url("../fonts/poppins/Poppins-SemiBold.ttf");
+}
+@font-face {
+  font-family: PoppinsMedium;
+  src: url("../fonts/poppins/Poppins-Medium.ttf");
+}
+.family-Poppins-Bold {
+  font-family: PoppinsBold;
+}
+.family-Poppins-SemiBold {
+  font-family: PoppinsSemiBold;
+}
+.family-Poppins-Regular {
+  font-family: PoppinsRegular;
+}
+/* font-family ends */
+
+.MuiBox-root-60 {
+  /* background-color: blue; */
+  /* font-family: PoppinsMedium; */
+}
+
+.forum-texteditor .ke-container.ke-container-default {
+  width: 700px !important;
+}
+.ke-container.ke-container-default {
+  width: auto !important;
+}
+.forum-main .MuiBox-root  .forum-texteditor {
+  margin-left: 0px !important;
+}
+.forum-main .MuiBox-root  .forum-texteditor>.MuiCardContent-root>.MuiBox-root >.MuiBox-root:first-child {
+    margin-left: 0 !important;
+}
+.forum-main .MuiBox-root .forum-texteditor .ke-container.ke-container-default {
+    display: inline-block;
+    margin: 0 -50%;
+}
+.forum-main .MuiBox-root  .forum-texteditor>.MuiCardContent-root>.MuiBox-root >p{
+      margin-top: 24px !important;
+    margin-bottom: 10px !important;
+}

@@ -1,0 +1,150 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400);
+
+.container {
+    width: 400px;
+    padding: 10px;
+}
+
+.message-blue {
+    position: relative;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #A8DDFD;
+    width: 288px;
+    min-height: 86px;
+    text-align: left;
+    font: 400 0.9em 'Open Sans', sans-serif;
+    border: 1px solid #97C6E3;
+    border-radius: 10px;
+}
+
+.message-orange {
+    position: relative;
+    margin-bottom: 10px;
+    margin-left: calc(100% - 310px);
+    padding: 10px;
+    background-color: #f8e896;
+    width: 288px;
+    min-height: 86px;
+    text-align: left;
+    font: 400 .9em 'Open Sans', sans-serif;
+    border: 1px solid #dfd087;
+    border-radius: 10px;
+}
+
+.message-content {
+    padding: 0;
+    margin: 0;
+}
+
+.message-timestamp-right {
+    position: absolute;
+    font-size: .85em;
+    font-weight: 300;
+    bottom: 5px;
+    right: 5px;
+}
+
+.message-timestamp-left {
+    position: absolute;
+    font-size: .85em;
+    font-weight: 300;
+    bottom: 5px;
+    left: 5px;
+}
+.message-name-right { 
+    font-size: 13px;
+    font-weight: 600 !important;
+    bottom: 5px;
+    text-align: right;
+}
+.message-name-left{  
+    font-size: 13px;
+    font-weight: 600 !important;
+    bottom: 5px;
+    text-align: left; 
+}
+.message-blue:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 15px solid #A8DDFD;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    top: 0;
+    left: -15px;
+}
+
+.message-blue:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 17px solid #97C6E3;
+    border-left: 16px solid transparent;
+    border-right: 16px solid transparent;
+    top: -1px;
+    left: -17px;
+}
+
+.message-orange:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 15px solid #f8e896;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    bottom: 0;
+    right: -15px;
+}
+
+.message-orange:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 17px solid #dfd087;
+    border-left: 16px solid transparent;
+    border-right: 16px solid transparent;
+    bottom: -1px;
+    right: -17px;
+}
+
+ .messanger-main-container{ padding: 64px 0px 20px;
+    margin: auto;
+    margin-top: 84px;
+    background: #ebebeb63;
+    border-radius: 5px;
+    width: 60%;
+    display: block;
+    min-height: 417px;
+}
+.messangerInput{ 
+    height: 40px;
+    margin: 5px;
+    border-radius: 5px;
+    width: 83%;
+    padding: 10px;
+    margin-top: 11rem; 
+    outline: initial;
+    border: 1px solid grey;
+}
+.messanger-send-btn{
+   background: #3f51b5;
+   border-radius: 5px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+

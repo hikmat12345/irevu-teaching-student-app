@@ -1,0 +1,1297 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rawHtml video {
+  width : 250px;
+}
+
+.rawHtml img {
+  width : 250px;
+}
+
+#menu-level {
+  z-index: 99900 !important;
+}
+
+
+.referrral_wechat_icon .st-btn.st-first.st-remove-label {
+    height: 35px !important;
+}
+.referrral_wechat_icon .st-btn >img {
+    width: 35px !important;
+    height: 35px !important;
+}
+.referrral_wechat_icon .st-inline-share-buttons .st-btn >img{
+  width: 35px !important;
+    height: 35px !important;
+}
+
+
+
+/* 09-dec-2021 */
+h1, h2, h3, h4, h5, h6{
+    color: #000;
+}
+.MuiDrawer-paperAnchorDockedLeft {
+   background-color: #3f51b5 !important;
+   color: #fff !important;
+}
+.MuiDrawer-paperAnchorDockedLeft svg path {
+    color: #fff;
+}
+
+.MuiDrawer-paperAnchorDockedLeft .MuiListItem-button:hover {
+    background-color: rgba(0, 0, 0, 0.09);
+}
+header .MuiIconButton-root {
+    background-color: #3f51b5;
+    margin-left: 10px;
+}
+header .MuiIconButton-root svg path {
+    color: #fff;
+}
+header .MuiIconButton-root:hover {
+    background-color: rgba(0, 0, 0, 0.06);
+    outline: 1px dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+}
+
+header .MuiIconButton-root:hover svg path {
+    color: #3f51b5;
+}
+.MuiButton-containedSecondary {
+    border-radius: 50px !important;
+}
+
+.MuiBox-root  .MuiAvatar-root{
+border-radius: 50%;
+}
+.MuiTypography-colorPrimary{
+  opacity: 1 !important;
+}
+
+.MuiButton-containedSecondary {
+    color: #fff;
+    background-color: #3f51b5 !important;
+}
+.MuiButton-containedSecondary:hover {
+    background-color: #689CF2 !important;
+}
+.MuiButton-containedSecondary {
+    color: #fff;
+    background-color: #3f51b5;
+}
+
+
+.MuiListItemIcon-root{
+        color: #fff;
+}
+/*New Css Added*/
+
+.MuiBox-root.dashboard-section-4 .MuiBox-root {
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+}
+.MuiBox-root.dashboard-section-4 .MuiTypography-h2 {
+    font-size: 1rem;
+    min-height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+
+}
+.MuiBox-root.dashboard-section-4 .MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded>.MuiBox-root>div:nth-child(2)>div:first-child{
+    background-color: #ff5dac;
+    min-height: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.MuiContainer-root.MuiContainer-maxWidthXl>.MuiBox-root>h5.MuiTypography-root.MuiTypography-h5.MuiTypography-colorPrimary:first-child{
+    font-size: 2rem;
+    text-decoration: none;
+    opacity: 1;
+    border: 1px solid #d4d4d4;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 10px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+    margin-bottom: 0px !important;
+}
+.MuiContainer-root.MuiContainer-maxWidthXl>.MuiBox-root>h5.MuiTypography-root.MuiTypography-h5.MuiTypography-colorPrimary:first-child~span:nth-child(2) {
+    font-size: 20px;
+    font-weight: 500 !important;
+}
+.MuiBox-root.dashboard-section-1 >h5.MuiTypography-root.MuiTypography-h5.MuiTypography-colorPrimary,.MuiBox-root.dashboard-section-2 >h5.MuiTypography-root.MuiTypography-h5.MuiTypography-colorPrimary,.MuiBox-root.dashboard-section-3 >h5.MuiTypography-root.MuiTypography-h5.MuiTypography-colorPrimary,.MuiBox-root.dashboard-section-3 >h5.MuiTypography-root.MuiTypography-h5.MuiTypography-colorPrimary,.MuiBox-root.dashboard-section-4 >h5.MuiTypography-root.MuiTypography-h5.MuiTypography-colorPrimary {
+    font-size: 22px;
+}
+.MuiBox-root.dashboard-section-1 >span ,.MuiBox-root.dashboard-section-2 >span ,.MuiBox-root.dashboard-section-3 >span ,.MuiBox-root.dashboard-section-4 >span {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.MuiButton-containedSecondary {
+    color: #fff;
+    background-color: #3f51b5;
+}
+.MuiButton-containedSecondary:hover {
+    background-color: #689CF2;
+}
+
+
+/ open button css /
+.forum-main button.MuiButtonBase-root.MuiButton-root.MuiButton-text{
+    border-radius: 50px;
+    background-color: #fff;
+    color: #3f51b5;
+    font-weight: 600;
+}
+.forum-main button.MuiButtonBase-root.MuiButton-root.MuiButton-text.jss2547:hover {
+    border: 1px solid #3f51b5;
+    color: #fff;
+    background-color: transparent !important;
+}
+.forum-main p.MuiTypography-root.MuiTypography-body2.MuiTypography-colorTextSecondary span.title{
+    color: #000;
+}
+.forum-main span.MuiTypography-root.MuiCardHeader-title.MuiTypography-body2.MuiTypography-displayBlock {
+    color: #000;
+}
+.forum-main .MuiTypography-displayBlock {
+    display: block;
+    color: #000;
+}
+h1, h2, h3, h4, h5, h6{
+    color: #000;
+}
+.forum-main .MuiAvatar-colorDefault {
+    color: #000;
+    background-color: #fff !important;
+}
+
+
+.MuiBox-root.dashboard-section-4 .MuiBox-root {
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+}
+.MuiBox-root.dashboard-section-4 .MuiTypography-h2 {
+    font-size: 1rem;
+    min-height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.MuiBox-root.dashboard-section-4 .MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded>.MuiBox-root>div:nth-child(2)>div:first-child{
+    background-color: #ff5dac;
+    min-height: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.MuiContainer-root.MuiContainer-maxWidthXl>.MuiBox-root>h5.MuiTypography-root.MuiTypography-h5.MuiTypography-colorPrimary:first-child{
+    font-size: 2rem;
+    text-decoration: none;
+    opacity: 1;
+    border: 1px solid #d4d4d4;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 10px;
+    border-radius: 10px;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    margin-bottom: 0px !important;
+}
+.MuiContainer-root.MuiContainer-maxWidthXl>.MuiBox-root>h5.MuiTypography-root.MuiTypography-h5.MuiTypography-colorPrimary:first-child~span:nth-child(2) {
+    font-size: 20px;
+    font-weight: 500 !important;
+}
+.MuiBox-root.dashboard-section-1 >h5.MuiTypography-root.MuiTypography-h5.MuiTypography-colorPrimary,.MuiBox-root.dashboard-section-2 >h5.MuiTypography-root.MuiTypography-h5.MuiTypography-colorPrimary,.MuiBox-root.dashboard-section-3 >h5.MuiTypography-root.MuiTypography-h5.MuiTypography-colorPrimary,.MuiBox-root.dashboard-section-3 >h5.MuiTypography-root.MuiTypography-h5.MuiTypography-colorPrimary,.MuiBox-root.dashboard-section-4 >h5.MuiTypography-root.MuiTypography-h5.MuiTypography-colorPrimary {
+    font-size: 22px;
+}
+.MuiBox-root.dashboard-section-1 >span ,.MuiBox-root.dashboard-section-2 >span ,.MuiBox-root.dashboard-section-3 >span ,.MuiBox-root.dashboard-section-4 >span {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+
+.MuiButton-containedSecondary {
+    color: #fff;
+    background-color: #3f51b5;
+}
+.MuiButton-containedSecondary:hover {
+    background-color: #689CF2;
+}
+.forum-main h5.MuiTypography-root.MuiTypography-h5~div .MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded {
+    width: calc((100% - 4%)/3);
+    min-width: calc((100% - 4%)/3);
+    height: 100%;
+}
+.forum-main h5.MuiTypography-root.MuiTypography-h5~.forum-inner .MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded:nth-child(20n+1) {
+    background-color: #ffb5e5;
+}
+.forum-main h5.MuiTypography-root.MuiTypography-h5~.forum-inner .MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded:nth-child(20n+2) {
+    background-color: #b28dff;
+}
+.forum-main h5.MuiTypography-root.MuiTypography-h5~.forum-inner .MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded:nth-child(20n+3) {
+    background-color: #dcd3ff;
+}
+.forum-main h5.MuiTypography-root.MuiTypography-h5~.forum-inner .MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded:nth-child(20n+4) {
+    background-color: #aff8db;
+}
+.forum-main h5.MuiTypography-root.MuiTypography-h5~.forum-inner .MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded:nth-child(20n+5) {
+    background-color: #bffcc8;
+}
+.forum-main h5.MuiTypography-root.MuiTypography-h5~.forum-inner .MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded:nth-child(20n+6) {
+    background-color: #ffc9de;
+}
+.forum-main h5.MuiTypography-root.MuiTypography-h5~.forum-inner .MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded:nth-child(20n+7) {
+    background-color: #ff9cee;
+}
+.forum-main h5.MuiTypography-root.MuiTypography-h5~.forum-inner .MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded:nth-child(20n+8) {
+    background-color: #c5a3ff;
+}
+.forum-main h5.MuiTypography-root.MuiTypography-h5~.forum-inner .MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded:nth-child(20n+9) {
+    background-color: #a79aff;
+}
+.forum-main h5.MuiTypography-root.MuiTypography-h5~.forum-inner .MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded:nth-child(20n+10) {
+    background-color: #cafaf8;
+}
+.forum-main h5.MuiTypography-root.MuiTypography-h5~.forum-inner .MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded:nth-child(20n+11) {
+    background-color: #fff5ba;
+}
+.forum-main h5.MuiTypography-root.MuiTypography-h5~.forum-inner .MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded:nth-child(20n+12) {
+    background-color: #ffffd1;
+}
+.forum-main h5.MuiTypography-root.MuiTypography-h5~.forum-inner .MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded:nth-child(20n+13) {
+    background-color: #afcbff;
+}
+.forum-main h5.MuiTypography-root.MuiTypography-h5~.forum-inner .MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded:nth-child(20n+14) {
+    background-color: #fbe4ff;
+}
+.forum-main h5.MuiTypography-root.MuiTypography-h5~.forum-inner .MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded:nth-child(20n+15) {
+    background-color: #f6a6ff;
+}
+.forum-main h5.MuiTypography-root.MuiTypography-h5~.forum-inner .MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded:nth-child(20n+16) {
+    background-color: #ffcbc1;
+}
+.forum-main h5.MuiTypography-root.MuiTypography-h5~.forum-inner .MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded:nth-child(20n+17) {
+    background-color: #e7ffac;
+}
+/*.forum-main h5.MuiTypography-root.MuiTypography-h5~div .MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded:nth-child(20n+18) {
+    background-color: #ace7ff;
+}*/
+.forum-main h5.MuiTypography-root.MuiTypography-h5~.forum-inner .MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded:nth-child(20n+18) {
+    background-color: #ecd4ff;
+}
+.forum-main h5.MuiTypography-root.MuiTypography-h5~.forum-inner .MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded:nth-child(20n+19) {
+    background-color: #fcc2ff;
+}
+.forum-main h5.MuiTypography-root.MuiTypography-h5~.forum-inner .MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded:nth-child(20n+20) {
+    background-color: #f3ffe3;
+}
+
+
+
+
+
+
+.forum-main h5.MuiTypography-root.MuiTypography-h5~div .MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded:nth-child(20n+10) {
+    background-color: #cafaf8;
+}
+.forum-main .MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded p.MuiTypography-root.MuiTypography-colorTextSecondary~button svg.MuiSvgIcon-root path {
+    color: #fff;
+}
+
+
+/* open button css */
+.forum-main .MuiCardActions-root button.MuiButtonBase-root.MuiButton-root.MuiButton-text{
+    border-radius: 50px;
+    background-color: #fff;
+    color: #3f51b5;
+    font-weight: 600;
+}
+.forum-main .MuiCardActions-root button.MuiButtonBase-root.MuiButton-root.MuiButton-text.jss2547:hover {
+    border: 1px solid #3f51b5;
+    color: #fff;
+    background-color: transparent !important;
+}
+.forum-main p.MuiTypography-root.MuiTypography-body2.MuiTypography-colorTextSecondary span.title{
+    color: #000;
+}
+.forum-main span.MuiTypography-root.MuiCardHeader-title.MuiTypography-body2.MuiTypography-displayBlock {
+    color: #000;
+}
+.forum-main .MuiTypography-displayBlock {
+    display: block;
+    color: #000;
+}
+h1, h2, h3, h4, h5, h6{
+    color: #000;
+}
+.forum-main .MuiAvatar-colorDefault {
+    color: #000;
+    background-color: #fff !important;
+}
+
+
+
+.forum-main button.MuiButtonBase-root.MuiIconButton-root {
+    color: #fff;
+    background-color: #3f51b5;
+}
+.forum-main button.MuiButtonBase-root.MuiIconButton-root:hover {
+    background-color: #fff;
+    color: #3f51b5;
+}
+.forum-main p.MuiTypography-root.MuiTypography-body2.MuiTypography-colorTextSecondary button.MuiButtonBase-root.MuiButton-root.MuiButton-text{
+    border-radius: 50px;
+    background-color: #fff;
+    color: #3f51b5;
+    font-weight: 600;
+}
+.forum-main p.MuiTypography-root.MuiTypography-body2.MuiTypography-colorTextSecondary button.MuiButtonBase-root.MuiButton-root.MuiButton-text.jss2547:hover {
+    border: 1px solid #3f51b5;
+    color: #fff;
+    background-color: transparent !important;
+}
+
+
+.forum-main button.MuiButtonBase-root.MuiButton-root.MuiButton-text {
+    border-radius: 50px !important;
+}
+
+.MuiBox-root.dashboard-section-1 .MuiBox-root.FlexItem.FlexRow ,.MuiBox-root.dashboard-section-2 .MuiBox-root.FlexItem.FlexRow{
+    border: 1px solid #d4d4d4;
+}
+.classes-main button.MuiButtonBase-root.MuiButton-root.MuiButton-text ,.classes-main  button.MuiButtonBase-root.MuiButton-root.MuiButton-contained{
+    border-radius: 50px;
+    background-color: #3f51b5;
+}
+.classes-main button.MuiButtonBase-root.MuiButton-root.MuiButton-text:hover,.classes-main  button.MuiButtonBase-root.MuiButton-root.MuiButton-contained:hover{
+background-color: #689CF2;
+    color: #fff;
+}
+.forum-main button.MuiButtonBase-root.MuiIconButton-root:hover path {
+    color: #3f51b5 !important;
+}
+/*.forum-main .MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded:nth-child(10n+5) {
+    background-color: #bffcc6;
+}*/
+.forum-main .MuiCardHeader-action button.MuiButtonBase-root.MuiButton-root.MuiButton-text:first-child {
+    background-color: #8A97FF;
+    color: #fff;
+    margin-bottom: 5px;
+}
+.forum-main .MuiCardHeader-action button.MuiButtonBase-root.MuiButton-root.MuiButton-text:nth-child(2) {
+    background-color: #FF8F8A;
+    color: #fff;
+}
+
+.notification-card-section >.MuiBox-root:first-child {
+    margin-top: 20px;
+}
+
+.notification-card-section >.MuiBox-root:nth-child(2) {
+    font-size: 20px;
+}
+
+.forum-main h5.MuiTypography-root.MuiTypography-h5~div .MuiCardHeader-action {
+    width: 70px;
+}
+.MuiContainer-root.forum-main.MuiContainer-maxWidthXl .MuiBox-root:first-child >button.MuiButtonBase-root.MuiButton-root.MuiButton-text{
+background-color: #3f51b5;
+}
+.MuiContainer-root.forum-main.MuiContainer-maxWidthXl .MuiBox-root:first-child >button.MuiButtonBase-root.MuiButton-root.MuiButton-text:hover{
+background-color: #689CF2;
+   color: #fff;
+}
+.MuiContainer-root.resources-main.MuiContainer-maxWidthXl >.MuiBox-root .MuiCardContent-root >.MuiBox-root {
+    margin-top: 10px;
+}
+section .MuiBox-root.header {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.MuiBox-root:first-child >div >button.MuiButtonBase-root.MuiButton-root.MuiButton-text {
+    border-radius: 50px;
+    background-color: #3f51b5;
+}
+.MuiBox-root:first-child >div >button.MuiButtonBase-root.MuiButton-root.MuiButton-text:hover {
+    background-color: #689CF2;
+   color: #fff;
+}
+.MuiContainer-root.lessonplan-main.MuiContainer-maxWidthXl .MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded .MuiCardContent-root >.MuiBox-root {
+    margin-top: 10px;
+}
+
+footer.footer.layout_padding img {
+    height: 150px;
+}
+
+.MuiBox-root.dashboard-section-3 .MuiBox-root.FlexItem.FlexRow {
+    justify-content: center;
+}
+.forum-main h5.MuiTypography-root.MuiTypography-h5~div .MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded .MuiCardHeader-content span.MuiTypography-root.MuiCardHeader-title {
+    font-size: 18px;
+}
+.forum-main h5.MuiTypography-root.MuiTypography-h5~div .MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded .MuiCardHeader-content span.MuiTypography-root.MuiCardHeader-subheader.MuiTypography-colorTextSecondary.MuiTypography-displayBlock {
+    font-size: 18px;
+}
+
+/*New Css 10-12*/
+.MuiBox-root.dashboard-section-3 .MuiBox-root.FlexItem.FlexRow {
+    justify-content: center;
+}
+.forum-main h5.MuiTypography-root.MuiTypography-h5~div .MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded .MuiCardHeader-content span.MuiTypography-root.MuiCardHeader-title {
+    font-size: 18px;
+}
+.forum-main h5.MuiTypography-root.MuiTypography-h5~div .MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded .MuiCardHeader-content span.MuiTypography-root.MuiCardHeader-subheader.MuiTypography-colorTextSecondary.MuiTypography-displayBlock {
+    font-size: 18px;
+}
+
+
+/*homework*/
+.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded>.MuiCardContent-root>.MuiBox-root>h2.MuiTypography-root.MuiTypography-h5.MuiTypography-gutterBottom {
+    font-family: PoppinsMedium;
+}
+.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded>.MuiCardContent-root {
+    padding: 5px !important;
+}
+.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded span.MuiTypography-root.MuiTypography-button.MuiTypography-gutterBottom.MuiTypography-displayInline {
+    font-family: PoppinsMedium;
+}
+.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded  .content-css {
+    font-family: PoppinsMedium;
+}
+
+
+.MuiContainer-root.MuiContainer-maxWidthXl.homework-feedback-main>.MuiBox-root>.MuiBox-root>.MuiGrid-root.MuiGrid-container.MuiGrid-spacing-xs-3>.MuiGrid-root.MuiGrid-item.MuiGrid-grid-md-12.MuiGrid-grid-lg-6:nth-child(2n)>.MuiBox-root> div#messageContainer{
+    width: 90%;
+}
+
+
+/*forum   */
+.MuiContainer-root.forum-main.MuiContainer-maxWidthXl .MuiBox-root:first-child>button.MuiButtonBase-root.MuiButton-root.MuiButton-text {
+    background-color: #3f51b5;
+    color: #fff;
+}
+.MuiContainer-root.forum-main.MuiContainer-maxWidthXl>.MuiBox-root:first-child>.MuiBox-root>.MuiBox-root:nth-child(2)>button.MuiButtonBase-root.MuiButton-root.MuiButton-text {
+    height: 40px;
+    border: none;
+    font-size: 15px;
+    padding: 20px;
+}
+.MuiContainer-root.forum-main.MuiContainer-maxWidthXl>.MuiBox-root:first-child>.MuiBox-root>.MuiBox-root:nth-child(2)>button.MuiButtonBase-root.MuiButton-root.MuiButton-text.active{
+    background-color: #689cf2;
+}
+
+
+/* my classes and homewrok */
+.MuiContainer-root.homework-main.MuiContainer-maxWidthXl>.MuiBox-root>.MuiBox-root:nth-child(2)> .MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-6.MuiGrid-grid-lg-3:nth-child(20n+1)>div>div,.MuiContainer-root.classes-main.MuiContainer-maxWidthXl .my-classess-main>.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-6.MuiGrid-grid-lg-3:nth-child(20n+1)>div>div {
+    background-color: #fff5ba;
+}
+.MuiContainer-root.homework-main.MuiContainer-maxWidthXl>.MuiBox-root>.MuiBox-root:nth-child(2)> .MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-6.MuiGrid-grid-lg-3:nth-child(20n+2)>div>div,.MuiContainer-root.classes-main.MuiContainer-maxWidthXl .my-classess-main>.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-6.MuiGrid-grid-lg-3:nth-child(20n+2)>div>div {
+    background-color: #ffffd1;
+}
+.MuiContainer-root.homework-main.MuiContainer-maxWidthXl>.MuiBox-root>.MuiBox-root:nth-child(2)> .MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-6.MuiGrid-grid-lg-3:nth-child(20n+3)>div>div ,.MuiContainer-root.classes-main.MuiContainer-maxWidthXl .my-classess-main>.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-6.MuiGrid-grid-lg-3:nth-child(20n+3)>div>div {
+    background-color: #afcbff;
+}
+.MuiContainer-root.homework-main.MuiContainer-maxWidthXl>.MuiBox-root>.MuiBox-root:nth-child(2) >.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-6.MuiGrid-grid-lg-3:nth-child(20n+4)>div>div,.MuiContainer-root.classes-main.MuiContainer-maxWidthXl .my-classess-main>.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-6.MuiGrid-grid-lg-3:nth-child(20n+4)>div>div {
+    background-color: #fbe4ff;
+}
+.MuiContainer-root.homework-main.MuiContainer-maxWidthXl>.MuiBox-root>.MuiBox-root:nth-child(2) >.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-6.MuiGrid-grid-lg-3:nth-child(20n+5)>div>div,.MuiContainer-root.classes-main.MuiContainer-maxWidthXl .my-classess-main>.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-6.MuiGrid-grid-lg-3:nth-child(20n+5)>div>div {
+    background-color: #ffcbc1;
+}
+.MuiContainer-root.homework-main.MuiContainer-maxWidthXl>.MuiBox-root>.MuiBox-root:nth-child(2)> .MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-6.MuiGrid-grid-lg-3:nth-child(20n+6)>div>div ,.MuiContainer-root.classes-main.MuiContainer-maxWidthXl .my-classess-main>.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-6.MuiGrid-grid-lg-3:nth-child(20n+6)>div>div {
+    background-color: #e7ffac;
+}
+.MuiContainer-root.homework-main.MuiContainer-maxWidthXl>.MuiBox-root>.MuiBox-root:nth-child(2) >.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-6.MuiGrid-grid-lg-3:nth-child(20n+7)>div>div ,.MuiContainer-root.classes-main.MuiContainer-maxWidthXl .my-classess-main>.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-6.MuiGrid-grid-lg-3:nth-child(20n+7)>div>div{
+    background-color: #ace7ff;
+}
+.MuiContainer-root.homework-main.MuiContainer-maxWidthXl>.MuiBox-root>.MuiBox-root:nth-child(2)> .MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-6.MuiGrid-grid-lg-3:nth-child(20n+8)>div>div ,.MuiContainer-root.classes-main.MuiContainer-maxWidthXl .my-classess-main>.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-6.MuiGrid-grid-lg-3:nth-child(20n+8)>div>div {
+    background-color: #ace7ff;
+}
+.MuiContainer-root.homework-main.MuiContainer-maxWidthXl>.MuiBox-root>.MuiBox-root:nth-child(2)> .MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-6.MuiGrid-grid-lg-3:nth-child(20n+9)>div>div,.MuiContainer-root.classes-main.MuiContainer-maxWidthXl .my-classess-main>.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-6.MuiGrid-grid-lg-3:nth-child(20n+9)>div>div {
+    background-color: #ecd4ff;
+}
+.MuiContainer-root.homework-main.MuiContainer-maxWidthXl>.MuiBox-root>.MuiBox-root:nth-child(2) >.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-6.MuiGrid-grid-lg-3:nth-child(20n+10)>div>div,.MuiContainer-root.classes-main.MuiContainer-maxWidthXl .my-classess-main>.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-6.MuiGrid-grid-lg-3:nth-child(20n+10)>div>div {
+    background-color: #fcc2ff;
+}
+.MuiContainer-root.homework-main.MuiContainer-maxWidthXl>.MuiBox-root>.MuiBox-root:nth-child(2)> .MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-6.MuiGrid-grid-lg-3:nth-child(20n+11)>div>div,.MuiContainer-root.classes-main.MuiContainer-maxWidthXl .my-classess-main>.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-6.MuiGrid-grid-lg-3:nth-child(20n+11)>div>div {
+    background-color: #ffbebc;
+}
+.MuiContainer-root.homework-main.MuiContainer-maxWidthXl>.MuiBox-root>.MuiBox-root:nth-child(2) >.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-6.MuiGrid-grid-lg-3:nth-child(20n+12)>div>div,.MuiContainer-root.classes-main.MuiContainer-maxWidthXl .my-classess-main>.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-6.MuiGrid-grid-lg-3:nth-child(20n+12)>div>div {
+    background-color: #f3ffe3;
+}
+.MuiContainer-root.homework-main.MuiContainer-maxWidthXl>.MuiBox-root>.MuiBox-root:nth-child(2) >.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-6.MuiGrid-grid-lg-3:nth-child(20n+13)>div>div,.MuiContainer-root.classes-main.MuiContainer-maxWidthXl .my-classess-main>.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-6.MuiGrid-grid-lg-3:nth-child(20n+13)>div>div {
+    background-color: #b5b9ff;
+}
+.MuiContainer-root.homework-main.MuiContainer-maxWidthXl>.MuiBox-root>.MuiBox-root:nth-child(2) >.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-6.MuiGrid-grid-lg-3:nth-child(20n+14)>div>div,.MuiContainer-root.classes-main.MuiContainer-maxWidthXl .my-classess-main>.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-6.MuiGrid-grid-lg-3:nth-child(20n+14)>div>div {
+    background-color: #ffccf9;
+}
+.MuiContainer-root.homework-main.MuiContainer-maxWidthXl>.MuiBox-root>.MuiBox-root:nth-child(2) >.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-6.MuiGrid-grid-lg-3:nth-child(20n+15)>div>div,.MuiContainer-root.classes-main.MuiContainer-maxWidthXl .my-classess-main>.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-6.MuiGrid-grid-lg-3:nth-child(20n+15)>div>div  {
+    background-color: #dbffd6;
+}
+.MuiContainer-root.homework-main.MuiContainer-maxWidthXl>.MuiBox-root>.MuiBox-root:nth-child(2) >.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-6.MuiGrid-grid-lg-3:nth-child(20n+16)>div>div,.MuiContainer-root.classes-main.MuiContainer-maxWidthXl .my-classess-main>.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-6.MuiGrid-grid-lg-3:nth-child(20n+16)>div>div {
+    background-color: #ffabac;
+}
+.MuiContainer-root.homework-main.MuiContainer-maxWidthXl>.MuiBox-root>.MuiBox-root:nth-child(2)> .MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-6.MuiGrid-grid-lg-3:nth-child(20n+17)>div>div,.MuiContainer-root.classes-main.MuiContainer-maxWidthXl .my-classess-main>.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-6.MuiGrid-grid-lg-3:nth-child(20n+17)>div>div {
+    background-color: #c4faf8;
+}
+.MuiContainer-root.homework-main.MuiContainer-maxWidthXl>.MuiBox-root>.MuiBox-root:nth-child(2)> .MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-6.MuiGrid-grid-lg-3:nth-child(20n+18)>div>div..MuiContainer-root.classes-main.MuiContainer-maxWidthXl .my-classess-main>.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-6.MuiGrid-grid-lg-3:nth-child(20n+18)>div>div  {
+    background-color: #ffc9de;
+}
+.MuiContainer-root.homework-main.MuiContainer-maxWidthXl>.MuiBox-root>.MuiBox-root:nth-child(2)> .MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-6.MuiGrid-grid-lg-3:nth-child(20n+19)>div>div,.MuiContainer-root.classes-main.MuiContainer-maxWidthXl .my-classess-main>.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-6.MuiGrid-grid-lg-3:nth-child(20n+19)>div>div  {
+    background-color: #dcd3ff;
+}
+.MuiContainer-root.homework-main.MuiContainer-maxWidthXl>.MuiBox-root>.MuiBox-root:nth-child(2) >.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-6.MuiGrid-grid-lg-3:nth-child(20n+20)>div>div ,.MuiContainer-root.classes-main.MuiContainer-maxWidthXl .my-classess-main>.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-6.MuiGrid-grid-lg-3:nth-child(20n+20)>div>div{
+    background-color: #bffcc6;
+}
+
+
+/* academic enlish */
+.MuiContainer-root.academic-english-main.MuiContainer-maxWidthXl .MuiBox-root.academic-english-card-main >.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded {
+    min-width: calc((100% - 4%)/3);
+    width: calc((100% - 4%)/3);
+    height: 100%;
+    min-height: 200px;
+}
+
+.MuiContainer-root.academic-english-main.MuiContainer-maxWidthXl .MuiBox-root.academic-english-card-main >.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded:nth-child(20n+1) {
+    background-color: #fff5ba;
+}
+.MuiContainer-root.academic-english-main.MuiContainer-maxWidthXl .MuiBox-root.academic-english-card-main >.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded:nth-child(20n+2) {
+    background-color: #ffffd1;
+}
+.MuiContainer-root.academic-english-main.MuiContainer-maxWidthXl .MuiBox-root.academic-english-card-main >.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded:nth-child(20n+3) {
+    background-color: #afcbff;
+}
+.MuiContainer-root.academic-english-main.MuiContainer-maxWidthXl .MuiBox-root.academic-english-card-main >.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded:nth-child(20n+4) {
+    background-color: #fbe4ff;
+}
+.MuiContainer-root.academic-english-main.MuiContainer-maxWidthXl .MuiBox-root.academic-english-card-main >.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded:nth-child(20n+5) {
+    background-color: #ffcbc1;
+}
+.MuiContainer-root.academic-english-main.MuiContainer-maxWidthXl .MuiBox-root.academic-english-card-main >.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded:nth-child(20n+6) {
+    background-color: #e7ffac;
+}
+.MuiContainer-root.academic-english-main.MuiContainer-maxWidthXl .MuiBox-root.academic-english-card-main >.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded:nth-child(20n+7) {
+    background-color: #ace7ff;
+}
+.MuiContainer-root.academic-english-main.MuiContainer-maxWidthXl .MuiBox-root.academic-english-card-main >.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded:nth-child(20n+8) {
+    background-color: #ace7ff;
+}
+.MuiContainer-root.academic-english-main.MuiContainer-maxWidthXl .MuiBox-root.academic-english-card-main >.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded:nth-child(20n+9) {
+    background-color: #ecd4ff;
+}
+.MuiContainer-root.academic-english-main.MuiContainer-maxWidthXl .MuiBox-root.academic-english-card-main >.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded:nth-child(20n+10) {
+    background-color: #fcc2ff;
+}
+.MuiContainer-root.academic-english-main.MuiContainer-maxWidthXl .MuiBox-root.academic-english-card-main >.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded:nth-child(20n+11) {
+    background-color: #ffbebc;
+}
+.MuiContainer-root.academic-english-main.MuiContainer-maxWidthXl .MuiBox-root.academic-english-card-main >.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded:nth-child(20n+12) {
+    background-color: #f3ffe3;
+}
+.MuiContainer-root.academic-english-main.MuiContainer-maxWidthXl .MuiBox-root.academic-english-card-main >.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded:nth-child(20n+13) {
+    background-color: #b5b9ff;
+}
+.MuiContainer-root.academic-english-main.MuiContainer-maxWidthXl .MuiBox-root.academic-english-card-main >.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded:nth-child(20n+14) {
+    background-color: #ffccf9;
+}
+.MuiContainer-root.academic-english-main.MuiContainer-maxWidthXl .MuiBox-root.academic-english-card-main >.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded:nth-child(20n+15) {
+    background-color: #dbffd6;
+}
+.MuiContainer-root.academic-english-main.MuiContainer-maxWidthXl .MuiBox-root.academic-english-card-main >.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded:nth-child(20n+16) {
+    background-color: #ffabac;
+}
+.MuiContainer-root.academic-english-main.MuiContainer-maxWidthXl .MuiBox-root.academic-english-card-main >.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded:nth-child(20n+17) {
+    background-color: #c4faf8;
+}
+.MuiContainer-root.academic-english-main.MuiContainer-maxWidthXl .MuiBox-root.academic-english-card-main >.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded:nth-child(20n+18) {
+    background-color: #ffc9de;
+}
+.MuiContainer-root.academic-english-main.MuiContainer-maxWidthXl .MuiBox-root.academic-english-card-main >.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded:nth-child(20n+19) {
+    background-color: #dcd3ff;
+}
+.MuiContainer-root.academic-english-main.MuiContainer-maxWidthXl .MuiBox-root.academic-english-card-main >.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded:nth-child(20n+20) {
+    background-color: #bffcc6;
+}
+.MuiContainer-root.academic-english-main.MuiContainer-maxWidthXl .MuiBox-root.academic-english-card-main >.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded .MuiCardActions-root button.MuiButtonBase-root.MuiIconButton-root {
+    color: #fff;
+    background-color: #3f51b5;
+}
+.MuiContainer-root.academic-english-main.MuiContainer-maxWidthXl .MuiBox-root.academic-english-card-main >.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded .MuiCardActions-root button.MuiButtonBase-root.MuiIconButton-root:hover{
+    background-color: #fff;
+}
+.MuiContainer-root.academic-english-main.MuiContainer-maxWidthXl .MuiBox-root.academic-english-card-main >.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded .MuiCardActions-root button.MuiButtonBase-root.MuiIconButton-root:hover svg path{
+    color: #3f51b5;
+}
+.MuiContainer-root.academic-english-main.MuiContainer-maxWidthXl .MuiBox-root.academic-english-card-main >.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded .MuiCardActions-root span button.MuiButtonBase-root.MuiButton-root.MuiButton-text {
+    background-color: #fff;
+    color: #3f51b5 !important;
+    border-radius: 50px;
+}
+
+.MuiContainer-root.MuiContainer-maxWidthXl.opened-classes-main>.MuiBox-root >div >section>.MuiBox-root:nth-child(2)>.MuiBox-root {
+    width: calc((100% - 2%)/2);
+}
+
+
+.referralink-main .MuiGrid-root>div>.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded ,.earnpoint-main .MuiGrid-root>div>.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded{
+    border: 1px solid #d4d4d4;
+}
+
+.MuiContainer-root.MuiContainer-maxWidthXl.login-main>.MuiBox-root >.MuiBox-root:last-child ,.MuiContainer-root.MuiContainer-maxWidthXl.login-main>.MuiBox-root >.MuiBox-root:nth-last-child(2){
+    max-width: 200px;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.MuiContainer-root.MuiContainer-maxWidthXl.login-main>.MuiBox-root >.MuiBox-root:last-child button.MuiButtonBase-root.MuiButton-root.MuiButton-text {
+    height: 48px;
+    border: none;
+    color: #fff;
+}
+.MuiContainer-root.MuiContainer-maxWidthXl.login-main>.MuiBox-root >.MuiBox-root:nth-last-child(2) button{
+    border: none;
+}
+/*11th December*/
+.MuiContainer-root.academic-english-main.MuiContainer-maxWidthXl .MuiBox-root.academic-english-card-main>.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded span.MuiTypography-root.MuiCardHeader-title.MuiTypography-body2.MuiTypography-displayBlock, .MuiContainer-root.academic-english-main.MuiContainer-maxWidthXl .MuiBox-root.academic-english-card-main>.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded span.MuiTypography-root.MuiCardHeader-subheader.MuiTypography-colorTextSecondary.MuiTypography-displayBlock {
+    font-size: 18px;
+    color: #000;
+}
+.MuiContainer-root.academic-english-main.MuiContainer-maxWidthXl .MuiBox-root.academic-english-card-main>.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded .MuiCardContent-root span.rawHtml {
+    color: #000;
+    font-size: 18px;
+}
+.MuiContainer-root.academic-english-main.MuiContainer-maxWidthXl .MuiBox-root.academic-english-card-main>.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded .MuiCardActions-root span button.MuiButtonBase-root.MuiButton-root.MuiButton-text .MuiButton-label{
+    font-weight: 700;
+}
+.MuiContainer-root.classes-main.MuiContainer-maxWidthXl .my-classess-main>.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-6.MuiGrid-grid-lg-3 .MuiBox-root.FlexItem.FlexRow {
+    justify-content: center;
+}
+.MuiContainer-root.classes-main.MuiContainer-maxWidthXl .my-classess-main>.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-6.MuiGrid-grid-lg-3>div>div .MuiBox-root.FlexItem {
+    color: #000;
+    font-weight: 500;
+}
+.earnpoint-main .MuiGrid-root>div>.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded:first-child>.MuiCardContent-root >.MuiBox-root>.MuiBox-root:first-child,.referralink-main .MuiGrid-root>div>.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded:first-child>.MuiCardContent-root >.MuiBox-root>.MuiBox-root:first-child {
+    color: #3f51b5;
+    font-size: 26px;
+}
+.earnpoint-main .MuiGrid-root>div>.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded:first-child>.MuiCardContent-root >.MuiBox-root> p.MuiTypography-root.MuiTypography-body2.MuiTypography-colorPrimary
+,.referralink-main .MuiGrid-root>div>.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded:first-child>.MuiCardContent-root >.MuiBox-root> p.MuiTypography-root.MuiTypography-body2.MuiTypography-colorPrimary {
+    font-size: 18px;
+    color: #3f51b5;
+}
+
+.earnpoint-main .MuiGrid-root>div>.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded:first-child>.MuiCardContent-root >.MuiBox-root p.MuiTypography-root.MuiTypography-body1
+,.referralink-main .MuiGrid-root>div>.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded:first-child>.MuiCardContent-root >.MuiBox-root p.MuiTypography-root.MuiTypography-body1 {
+    font-size: 18px;
+}
+
+.earnpoint-main .MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded:last-child>.MuiCardContent-root>.MuiBox-root>.MuiBox-root
+,.referralink-main .MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded:last-child>.MuiCardContent-root>.MuiBox-root>.MuiBox-root {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #3f51b5;
+    font-size: 22px;
+
+}
+
+
+.referralink-main  .MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded:last-child>.MuiCardContent-root>.MuiBox-root>.MuiBox-root >.MuiBox-root:last-child {
+    color: #000;
+}
+.referralink-main  .MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded .MuiBox-root.makeStyles-smallestBlueTitle-64 {
+    color: #3f51b5;
+    font-size: 22px;
+}
+.referralink-main  .MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded .MuiBox-root.makeStyles-smallText-65 {
+    color: #000;
+    font-size: 16px;
+}
+.referralink-main .MuiGrid-root>div>.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded:nth-child(2)>.MuiCardContent-root>.MuiBox-root>.MuiBox-root:first-child>.MuiBox-root:first-child {
+    font-size: 22px;
+    color: #3f51b5;
+}
+.referralink-main .MuiGrid-root>div>.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded:nth-child(2)>.MuiCardContent-root>.MuiBox-root>.MuiBox-root:first-child>.MuiBox-root:first-child {
+    font-size: 22px;
+    color: #3f51b5;
+}
+.referralink-main .MuiGrid-root>div>.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded:nth-child(2)>.MuiCardContent-root>.MuiBox-root>.MuiBox-root:first-child>.MuiBox-root:last-child {
+    color: #000;
+    font-size: 16px;
+}
+.earnpoint-main .MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded:last-child>.MuiCardContent-root>.MuiBox-root>.MuiBox-root:last-child>p.MuiTypography-root {
+    color: #000;
+    font-size: 20px;
+}
+.homework-feedback-main  div#messageContainer .MuiCardContent-root>.MuiBox-root>img {
+    width: 40px;
+    height: 40px;
+}
+.homework-feedback-main div#messageContainer .MuiCardContent-root>.MuiBox-root >.MuiBox-root:nth-child(2) {
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.MuiContainer-root.homework-feedback-main.MuiContainer-maxWidthXl .MuiGrid-root.MuiGrid-container.MuiGrid-spacing-xs-3>.MuiGrid-root.MuiGrid-item.MuiGrid-grid-md-12.MuiGrid-grid-lg-6:first-child .MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded button.MuiButtonBase-root.MuiButton-root.MuiButton-text{
+    border-radius: 50px;
+    height: 35px;
+    line-height: 30px;
+    font-weight: 700;
+    padding: 0 20px;
+    font-size: 12px;
+}
+.MuiContainer-root.homework-feedback-main.MuiContainer-maxWidthXl .MuiGrid-root.MuiGrid-container.MuiGrid-spacing-xs-3>.MuiGrid-root.MuiGrid-item.MuiGrid-grid-md-12.MuiGrid-grid-lg-6:first-child .MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded button.MuiButtonBase-root.MuiButton-root.MuiButton-text:not(.homework-grade-cancel-btn){
+    background-color: #3f51b5;
+    border: none;
+    color: #FFF;
+}
+.MuiContainer-root.homework-feedback-main.MuiContainer-maxWidthXl .MuiGrid-root.MuiGrid-container.MuiGrid-spacing-xs-3>.MuiGrid-root.MuiGrid-item.MuiGrid-grid-md-12.MuiGrid-grid-lg-6:first-child .MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded button.MuiButtonBase-root.MuiButton-root.MuiButton-text:not(.homework-grade-cancel-btn):hover{
+    background-color: #689CF2;
+    border: none;
+    color: #FFF;
+}
+.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded button.MuiButtonBase-root.MuiButton-root.MuiButton-text.academic-feed-edit-btn {
+    background-color: #3f51b5;
+    border: none;
+    color: #FFF;
+    border-radius: 50px;
+    height: 35px;
+    line-height: 30px;
+    font-weight: 700;
+    padding: 0 20px;
+    font-size: 12px;
+    width: auto !important;
+}
+.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded button.MuiButtonBase-root.MuiButton-root.MuiButton-text.academic-feed-edit-btn:hover,.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded button.MuiButtonBase-root.MuiButton-root.MuiButton-text.academic-feed-submit-btn:hover{
+    background-color: #689CF2;
+    border: none;
+    color: #FFF;
+}
+
+.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded button.MuiButtonBase-root.MuiButton-root.MuiButton-text.academic-feed-cancle-btn {
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded button.MuiButtonBase-root.MuiButton-root.MuiButton-text.academic-feed-submit-btn{
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: 600;
+    background-color: #3f51b5;
+    border: none;
+    color: #FFF;
+}
+.MuiBox-root>.MuiPaper-root.MuiCard-root.question-feedback-card.MuiPaper-elevation1.MuiPaper-rounded~button.MuiButtonBase-root.MuiButton-root.MuiButton-text {
+    height: 55px;
+    align-items: center;
+    vertical-align: top;
+   
+}
+.MuiPaper-root.MuiCard-root.teacher-question-feed-card.MuiPaper-elevation1.MuiPaper-rounded .MuiCardContent-root>.MuiBox-root {
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.MuiPaper-root.MuiCard-root.teacher-question-feed-card.MuiPaper-elevation1.MuiPaper-rounded .MuiCardContent-root>.MuiBox-root .MuiBox-root {
+    text-align: left;
+}
+.MuiPaper-root.MuiCard-root.student-question-feed-card.MuiPaper-elevation1.MuiPaper-rounded .MuiCardContent-root>.MuiBox-root {
+    text-align: right;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.MuiPaper-root.MuiCard-root.student-question-feed-card.MuiPaper-elevation1.MuiPaper-rounded .MuiCardContent-root>.MuiBox-root .MuiBox-root {
+    text-align: right;
+}
+.MuiPaper-root.MuiCard-root.student-question-feed-card.MuiPaper-elevation1.MuiPaper-rounded .MuiCardContent-root>.MuiBox-root >.MuiBox-root:last-child {
+    flex-direction: row-reverse;
+}
+.forum-main .MuiCardHeader-avatar~.MuiCardHeader-content,.academic-english-main .MuiCardHeader-avatar~.MuiCardHeader-content{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 5px 5px;
+}
+.MuiBox-root.dashboard-section-3>.MuiBox-root>div {
+    width: 33.33333%;
+}
+.MuiPaper-root .MuiBox-root.makeStyles-smallText-6.card-feed-answer {
+    display: inline-block;
+    margin-left: 15px;
+}
+.MuiPaper-root.MuiCard-root.student-question-feed-card.MuiPaper-elevation1.MuiPaper-rounded .MuiCardContent-root>.MuiBox-root .MuiBox-root {
+    text-align: right;
+}
+.student-question-feed-card .MuiBox-root>img {
+    float: right;
+}
+.MuiPaper-root.MuiCard-root.student-question-feed-card.MuiPaper-elevation1.MuiPaper-rounded .MuiBox-root.makeStyles-smallText-6.card-feed-answer{
+  margin-left: 0px;
+  margin-right: 15px;
+}
+
+
+h5.MuiTypography-root.Dashboard-mainHeading-4.MuiTypography-h5.MuiTypography-colorPrimary{
+    margin-bottom: 10px !important;
+}
+.MuiBox-root.dashboard-section-3>.MuiBox-root >div >div > div:hover{
+    transform: translateY(-4px);
+}
+.MuiBox-root.dashboard-section-3>.MuiBox-root >div >div > div{
+    height: auto;
+}
+ .MuiBox-root.dashboard-section-1{
+    padding-bottom: 25px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    z-index: 1;
+    position: relative;
+    box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12);
+    transition: 0.3s;
+    border-color: #d4d4d4;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.MuiBox-root .dashboard-section-2{
+    padding-bottom: 25px;
+    margin-top: 35px;
+    margin-bottom: 10px;
+    z-index: 1;
+    position: relative;
+    box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12);
+    transition: 0.3s;
+    border-color: #d4d4d4;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.MuiContainer-root.MuiContainer-maxWidthXl>.MuiBox-root>h5.MuiTypography-root.MuiTypography-h5.MuiTypography-colorPrimary:first-child~span:nth-child(2){
+    margin-top: 20px;
+}
+.MuiContainer-root.academic-english-main.MuiContainer-maxWidthXl .MuiBox-root.academic-english-card-main >.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded{
+    min-height: 165px;
+}
+.forum-main .MuiCardHeader-avatar~.MuiCardHeader-content, .academic-english-main .MuiCardHeader-avatar~.MuiCardHeader-content{
+    background-color: unset;
+    padding: unset;
+    text-align: left;
+}
+p.MuiTypography-root.MuiTypography-body2.MuiTypography-colorTextSecondary{
+    text-align: center;
+}
+.MuiCardActions-root{
+    margin-top: 20px;
+}
+.MuiCardActions-root{
+    padding: 11px;
+}
+.MuiContainer-root.academic-english-main.MuiContainer-maxWidthXl .MuiBox-root.academic-english-card-main>.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded .MuiCardContent-root span.rawHtml{
+    font-size: 14px;
+}
+.MuiContainer-root.academic-english-main.MuiContainer-maxWidthXl .MuiBox-root.academic-english-card-main>.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded span.MuiTypography-root.MuiCardHeader-title.MuiTypography-body2.MuiTypography-displayBlock{
+    font-size: 15px;
+    font-weight: 700;
+}
+.MuiContainer-root.academic-english-main.MuiContainer-maxWidthXl .MuiBox-root.academic-english-card-main>.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded span.MuiTypography-root.MuiCardHeader-subheader.MuiTypography-colorTextSecondary.MuiTypography-displayBlock{
+    font-size: 15px;
+    font-weight: 700;
+}
+.MuiCardHeader-content{
+    flex: unset !important;
+}
+.MuiCardHeader-content > div{
+    text-align: left !important;
+}
+.MuiContainer-root.AcademicEnglish-container-1.academic-english-main.MuiContainer-maxWidthXl .MuiBox-root .MuiBox-root h5.MuiTypography-root.MuiTypography-h5{
+    border-bottom: 2px solid #454545;
+    padding-bottom: 5px;
+
+}
+
+.MuiContainer-root.AcademicEnglish-container-1.academic-english-main.MuiContainer-maxWidthXl > div.MuiBox-root:nth-child(2) h5.MuiTypography-root.MuiTypography-h5{
+    box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12);
+    transition: 0.3s;
+    border-color: #454545;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    background-color: #fff;
+    width: max-content;
+    padding: 10px 20px;
+    margin: 0 auto;
+}
+.MuiContainer-root.AcademicEnglish-container-1.academic-english-main.MuiContainer-maxWidthXl > div.MuiBox-root:nth-child(3) h5.MuiTypography-root.MuiTypography-h5{
+    box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12);
+    transition: 0.3s;
+    border-color: #454545;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    background-color: #fff;
+    width: max-content;
+    padding: 10px 20px;
+    margin: 0 auto;
+}
+
+.forum-main .MuiCardHeader-avatar~.MuiCardHeader-content span{
+    font-size: 16px !important;
+    font-weight: 600;
+}
+.forum-main .MuiCardHeader-root span{
+    font-size: 14px !important;
+    font-weight: 600;
+}
+.forum-main .MuiCardContent-root span{
+    font-size: 14px !important;
+}
+.MuiCardHeader-root{
+    padding-left: 20px;
+}
+.forum-main h5.MuiTypography-root.MuiTypography-h5~div .MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded{
+    height: auto;
+}
+.MuiContainer-root.Forum-container-1.forum-main.MuiContainer-maxWidthXl .MuiBox-root .MuiBox-root h5.MuiTypography-root.MuiTypography-h5 {
+    border-bottom: 2px solid #454545;
+    padding-bottom: 5px;
+}
+.MuiContainer-root.Forum-container-1.forum-main.MuiContainer-maxWidthXl div.MuiBox-root:nth-child(2) h5.MuiTypography-root.MuiTypography-h5{
+    box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12);
+    transition: 0.3s;
+    border-color: #454545;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    background-color: #fff;
+    width: max-content;
+    padding: 10px 20px;
+    margin: 0 auto;
+}
+.MuiContainer-root.Forum-container-1.forum-main.MuiContainer-maxWidthXl div.MuiBox-root:nth-child(3) h5.MuiTypography-root.MuiTypography-h5{
+    box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12);
+    transition: 0.3s;
+    border-color: #d4d4d4;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    background-color: #fff;
+    width: max-content;
+    padding: 10px 20px;
+    margin: 0 auto;
+}
+.forum-main .MuiAvatar-colorDefault {
+    color: #fafafa;
+    background-color: #f44336 !important;
+}
+.referralink-main .MuiGrid-root>div>.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded, .earnpoint-main .MuiGrid-root>div>.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded {
+    max-width: 700px;
+}
+.MuiBox-root.referralink-main,.MuiBox-root.earnpoint-main {
+    margin-top: 20px;
+}
+.earnpoint-main .MuiGrid-root>div>.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded:first-child>.MuiCardContent-root >.MuiBox-root>.MuiBox-root:first-child, .referralink-main .MuiGrid-root>div>.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded:first-child>.MuiCardContent-root >.MuiBox-root>.MuiBox-root:first-child{
+    border-bottom: 2px solid #d4d4d4;
+    margin-bottom: 15px;
+}
+.forum-main h5.MuiTypography-root.MuiTypography-h5~div .MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded{
+  min-height: 165px;
+}
+.MuiContainer-root.forum-main.MuiContainer-maxWidthXl>.MuiBox-root:first-child h5.MuiTypography-root.MuiTypography-h5 {
+    border-bottom: 1px solid #d4d4d4;
+    opacity: 1;
+    -webkit-box-shadow: 0 4px 6px -5px rgb(0 0 0 / 30%);
+    -moz-box-shadow: 0 4px 6px -5px rgb(0 0 0 / 30%);
+    box-shadow: 0 4px 6px -5px rgb(0 0 0 / 30%);
+}
+
+.MuiContainer-root.forum-main.MuiContainer-maxWidthXl>.MuiBox-root:not(:first-child) h5.MuiTypography-root.MuiTypography-h5 {
+    border: 1px solid #d4d4d4;
+    width: fit-content;
+    width: -moz-fit-content;
+    width: -webkit-fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding: 10px 15px;
+    box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+    margin-bottom: 5px;
+}
+.MuiContainer-root.academic-english-main.MuiContainer-maxWidthXl>.MuiBox-root:first-child h5.MuiTypography-root.MuiTypography-h5 {
+    border-bottom: 1px solid #d4d4d4;
+    opacity: 1;
+    -webkit-box-shadow: 0 4px 6px -5px rgb(0 0 0 / 30%);
+    -moz-box-shadow: 0 4px 6px -5px rgb(0 0 0 / 30%);
+    box-shadow: 0 4px 6px -5px rgb(0 0 0 / 30%);
+}
+
+.MuiContainer-root.academic-english-main.MuiContainer-maxWidthXl>.MuiBox-root:not(:first-child) h5.MuiTypography-root.MuiTypography-h5 {
+    border: 1px solid #d4d4d4;
+    width: fit-content;
+    width: -moz-fit-content;
+    width: -webkit-fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding: 10px 15px;
+    box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+    margin-bottom: 5px;
+}
+.forum-main h5.MuiTypography-root.MuiTypography-h5~div .MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded>.MuiCardActions-root p.MuiTypography-root.MuiTypography-body2.MuiTypography-colorTextSecondary{
+    width: 30%;
+    text-align: left;
+}
+.forum-main h5.MuiTypography-root.MuiTypography-h5~div .MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded>.MuiCardActions-root .MuiCardHeader-root{
+    float: right;
+    justify-content: flex-end;
+    width: 70%;
+    padding-bottom: 5px;
+}
+.forum-main .MuiCardHeader-avatar~.MuiCardHeader-content:nth-child(2) {
+    width: 60%;
+}
+.forum-main .MuiCardHeader-avatar~.MuiCardHeader-content:nth-child(2):last-child {
+    width: unset;
+}
+.MuiContainer-root.forum-main.MuiContainer-maxWidthXl>.MuiBox-root .MuiCardActions-root>button.MuiButtonBase-root.MuiIconButton-root {
+    display: none;
+}
+.MuiContainer-root.academic-english-main.MuiContainer-maxWidthXl .MuiBox-root.academic-english-card-main >.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded .MuiCardActions-root button.MuiButtonBase-root.MuiIconButton-root{
+display: none;
+}
+
+.MuiBox-root.dashboard-section-3>h5.MuiTypography-root.MuiTypography-h5.MuiTypography-colorPrimary {
+    margin-bottom: 10px;
+}
+div#root button:focus{
+ outline:  none;
+}
+
+
+/* 21-dec-2021 */
+.MuiBox-root.dashboard-section-1 >.MuiBox-root>div:first-child .MuiBox-root.FlexItem.FlexRow, .MuiBox-root.dashboard-section-2 >.MuiBox-root>div:first-child .MuiBox-root.FlexItem.FlexRow ,.MuiBox-root.dashboard-section-3>.MuiBox-root>div:first-child>div>div{
+     background-color: #7f9fea;
+}
+.MuiBox-root.dashboard-section-1 >.MuiBox-root>div:nth-child(2) .MuiBox-root.FlexItem.FlexRow, .MuiBox-root.dashboard-section-2 >.MuiBox-root>div:nth-child(2) .MuiBox-root.FlexItem.FlexRow,.MuiBox-root.dashboard-section-3>.MuiBox-root>div:nth-child(2)>div>div{
+ background-color: #bdcfff;
+}
+.MuiBox-root.dashboard-section-1 >.MuiBox-root>div:nth-child(3) .MuiBox-root.FlexItem.FlexRow, .MuiBox-root.dashboard-section-2 >.MuiBox-root>div:nth-child(3) .MuiBox-root.FlexItem.FlexRow,.MuiBox-root.dashboard-section-3>.MuiBox-root>div:nth-child(3) >div>div{
+ background-color: #d8e1ff;
+}
+
+
+/* font-family 22-dec-2021 */
+body{
+    font-family: 'Raleway', sans-serif !important;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Raleway', sans-serif !important;
+}
+div,p,a{
+    font-family: 'Raleway', sans-serif !important;
+    font-weight: 500 !important;
+}
+.MuiTypography-h5{
+        font-weight: 600 !important;
+}
+.MuiButton-label{
+    font-family: 'Raleway', sans-serif !important;
+    font-weight: 600 !important; 
+}
+.MuiTypography-root {
+    font-family: 'Raleway', sans-serif !important;
+}
+p.MuiTypography-root.MuiTypography-body1 {
+    font-weight: 600 !important;
+}
+button{
+    font-family: 'Raleway', sans-serif !important;
+}
+.MuiOutlinedInput-input{
+    font-family: 'Raleway', sans-serif !important;
+}
+.dashboard-section-1 p.MuiTypography-root.MuiTypography-body1,.dashboard-section-2 p.MuiTypography-root.MuiTypography-body1,.dashboard-section-3 p.MuiTypography-root.MuiTypography-body1 {
+    color: #fff;
+    font-size: 14px;
+}
+.MuiPaper-root.MuiCard-root.teacher-question-feed-card.MuiPaper-elevation1.MuiPaper-rounded .MuiCardContent-root>.MuiBox-root .MuiBox-root:nth-child(3){
+    padding-top: 10px;
+
+}
+.MuiPaper-root.MuiCard-root.teacher-question-feed-card.MuiPaper-elevation1.MuiPaper-rounded .MuiCardContent-root>.MuiBox-root .MuiBox-root:nth-child(2) {
+    display: inline-block;
+    margin-left: 15px;
+}
+/*.MuiPaper-root.MuiCard-root.student-question-feed-card.MuiPaper-elevation1.MuiPaper-rounded .MuiCardContent-root>.MuiBox-root .MuiBox-root:nth-child(2) {
+    margin-right: 15px;
+}*/
+.MuiPaper-root.MuiCard-root.student-question-feed-card.MuiPaper-elevation1.MuiPaper-rounded .MuiCardContent-root > .MuiBox-root .MuiBox-root:nth-child(2){
+    margin-right: 62px;
+}
+.MuiPaper-root.MuiCard-root.student-question-feed-card.MuiPaper-elevation1.MuiPaper-rounded .MuiCardContent-root > .MuiBox-root .MuiBox-root:nth-child(3){
+    padding-top: 10px;
+}
+.MuiContainer-root.lessonplan-main.MuiContainer-maxWidthXl .MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded .MuiCardContent-root >div>h2.MuiTypography-root.MuiTypography-h2.MuiTypography-displayBlock {
+      min-height: 220px;
+}
+.MuiContainer-root.resources-main.MuiContainer-maxWidthXl >.MuiBox-root .MuiCardContent-root >div>h2.MuiTypography-root.MuiTypography-h2.MuiTypography-displayBlock {
+    min-height: 220px;
+}
+.titletext{
+        font-size: 25px;
+}
+.techer-heading-left{
+    text-align:left;
+}
+ul .pagination {
+    margin: unset;
+  margin: 15px auto;
+  display: flex;
+  list-style: none;
+  outline: none;
+}
+.pagination > .active > a{
+  background-color: #47ccde ;
+  border-color: #47ccde ;
+  color: #fff;
+}
+.pagination > li > a{
+  border: 1px solid #47ccde ;
+  padding: 5px 10px;
+  outline: none;
+  width: 75px !important;
+  cursor: pointer;
+}
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
+  background-color: #47ccde ;
+  border-color: #47ccde;
+  outline: none ;
+}
+.pagination > li > a, .pagination > li > span{
+  color: #47ccde
+}
+.pagination > li:first-child > a, .pagination > li:first-child > span, .pagination > li:last-child > a, .pagination > li:last-child > span{
+  border-radius: unset
+}
+.rdw-editor-main {
+  height: 100%;
+  overflow: auto;
+  box-sizing: border-box;
+}
+.rdw-editor-toolbar {
+  padding: 6px 5px 0;
+  border-radius: 2px;
+  border: 1px solid #F1F1F1;
+  display: flex;
+  justify-content: flex-start;
+  background: white;
+  flex-wrap: wrap;
+  font-size: 15px;
+  margin-bottom: 5px;
+  user-select: none;
+}
+.public-DraftStyleDefault-block {
+  margin: 1em 0;
+}
+.rdw-editor-wrapper:focus {
+  outline: none;
+}
+.rdw-editor-wrapper {
+  box-sizing: content-box;
+  padding: 5px;
+}
+.rdw-editor-main blockquote {
+  border-left: 5px solid #f1f1f1;
+  padding-left: 5px;
+}
+.rdw-editor-main pre {
+  background: #f1f1f1;
+  border-radius: 3px;
+  padding: 1px 10px;
+}
+
+.rdw-dropdown-selectedtext{
+    padding: 10px;
+}
+
+.rdw-dropdown-wrapper .rdw-link-dropdown{
+     padding: 10px;
+}
+.rdw-option-wrapper img{
+     padding: 10px;
+}
+
+/*.MuiContainer-root.AcademicEnglish-container-1.academic-english-main.MuiContainer-maxWidthXl button.MuiButtonBase-root.MuiButton-root.MuiButton-text {
+    border-radius: 50px;
+    background-color: #3f51b5;
+    height: 40px;
+    border: none;
+    font-size: 15px;
+    padding: 20px;
+}
+.MuiContainer-root.AcademicEnglish-container-1.academic-english-main.MuiContainer-maxWidthXl button.MuiButtonBase-root.MuiButton-root.MuiButton-text.active {
+    background-color: #689cf2;
+}
+
+.MuiContainer-root.AcademicEnglish-container-1.academic-english-main.MuiContainer-maxWidthXl button.MuiButtonBase-root.MuiButton-root.MuiButton-text:hover {
+    background-color: #689CF2;
+    color: #fff;
+}*/
